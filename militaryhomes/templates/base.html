@@ -159,7 +159,7 @@
 
                         <ul class="sub-menu">
                             <li><a href="pages-grid.html">Grid System</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{% url 'about' %}">About</a></li>
                             <li><a href="pages-faq.html">FAQ</a></li>
                             <li><a href="pages-ad-spaces.html">Ad Spaces</a></li>
                             <li><a href="pages-notifications.html">Notifications</a></li>
@@ -215,7 +215,7 @@
    </div><!-- /.container -->
 </div><!-- /.header-->
     
-  {% block content %}{% endblock %}
+  {% block content %}{% endblock content %}
 
   <div id="footer" class="footer">
     <div class="footer-top">
